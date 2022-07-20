@@ -32,17 +32,23 @@ header{
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     padding-top: 60px;    
-    height: 100vh;
+    height: 80vh;
+    color:#c7ccd2;
 
     h2{
     text-align: center;
     color:#a6afba ;
     }
+    
+    & p{
+        padding-left: 60px;
+        padding-top: 30px;
+    }
 
     & ul{
         padding-left: 60px;
         margin-top: 30px;
-        color: #c7ccd2;
+        color: #dc4b4b;
     }
 }
 
@@ -52,7 +58,7 @@ footer{
     align-items: center;
     justify-content: space-evenly;
     background-color: #07070d;
-    height: 80px;
+    height: 75px;
 
     img{
 
